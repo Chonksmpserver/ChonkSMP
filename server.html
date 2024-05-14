@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Set Up a Minecraft Server using Aternos!</title>
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+       <style>
+                    .h1{
+            text-align:center;
+        }
+
+        @media (max-width: 768px) {
+          /* Styles for small screens */
+        }
+        @media (min-width: 769px) {
+          /* Styles for larger screens */
+        }
+
+        /* Basic styling for the navigation menu */
+        ul.nav-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 14px 16px;
+            background-color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        ul.nav-menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        ul.nav-menu li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        ul.nav-menu li a:hover {
+            color: #ffc107; /* Change to your desired hover color */
+        }
+
+        /* Dropdown styles */
+        ul.nav-menu li ul.dropdown {
+            display: none;
+            position: absolute;
+            background-color: #444;
+            padding: 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        ul.nav-menu li:hover ul.dropdown {
+            display: block;
+        }
+
+        ul.nav-menu li ul.dropdown li {
+            display: block;
+            margin: 0;
+            padding: 10px;
+            border-bottom: 1px solid #555;
+        }
+
+        ul.nav-menu li ul.dropdown li:last-child {
+            border-bottom: none;
+        }
+
+        ul.nav-menu li ul.dropdown li a {
+            color: #ddd;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        ul.nav-menu li ul.dropdown li a:hover {
+            color: #ffc107; /* Change to your desired hover color */
+        }
+        
+        /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+/* Style the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+/* Style the dropdown links */
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change link color on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown content when the button is hovered */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Style the footer container */
+footer {
+    background-color: #333;
+    color: #333;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style the footer links */
+footer a {
+    color: white;
+    text-decoration: none;
+    margin:14px;
+}
+
+/* Change link color on hover */
+footer a:hover {
+    color: #ffc107;
+}
+
+        </style>
+    </head>
+<body>
+ <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li>
+            <a href="#">Services</a>
+            <ul class="dropdown">
+                <li><a href="server.html">Server Design</a></li>
+                <li><a href="#">Plugin Design</a></li>
+            </ul>
+        </li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="data.html">Datapacks</a></li>
+        <li><a href="trailer.html">Trailers</a></li>
+        <li>
+            <a href="#">More</a>
+            <ul class="dropdown">
+                <li><a href="com.html">FAQs/Comments</a></li>
+            </ul>
+        </li>
+    </ul>
+    <h1>How to Set Up a Minecraft Server</h1>
+    <p>Welcome to our guide on creating your own Minecraft server! Follow these steps:</p>
+
+    <h2>Step 1: Create server using aternos</h2>
+    <p>Visit the <code><a href = "https://aternos.org">Aternos website</a></code> and create an account!</p>
+    <p>Create a server either a bedrock or java (we'll talk about creating a crossplay server after). You can name it anything you want but in this example I will call it "Toddserver"</p>
+    <p>Go to the software tab then click on either paper/bukkit or spigot... after that click install, then go to the plugins tab and search:</p>
+    
+    <ol>
+        
+            
+            <li><a href = "https://aternos.org/addons/a/bukkit/basicquests">Basic Quests</a></li>
+            <li><a href = "https://aternos.org/addons/a/spigot/103241">Better Structures</a></li>
+            <li><a href = "https://aternos.org/addons/a/hangar/ChestShop">Chest Shop</a></li>
+            <li><a href = "https://aternos.org/addons/a/spigot/62596">ClickTPA</a></li>
+           <li> <a href = "https://aternos.org/addons/a/artemis-bukkit/essentialsx">EssentialsX</a></li>
+            <li><a href = "https://aternos.org/addons/a/spigot/83455">Automatic-Broadcast</a></li>
+            <li><a href = "https://aternos.org/addons/a/artemis-bukkit/geyser">Geyser</a></li>      
+            <li><a href = "https://aternos.org/addons/a/artemis-bukkit/geyser-skin-manager"> and GeyserSkinManager</a></li>
+            <li><a href = "https://aternos.org/addons/a/hangar/GSit">GSIT</a></li>
+            <li><a href = "https://aternos.org/addons/a/artemis-bukkit/luckperms-bukkit">Luckperms</a></li>
+            <li><a href = "https://aternos.org/addons/a/bukkit/multiverse-core">Multiverse Core</a></li>
+            <li><a href = "https://aternos.org/addons/a/bukkit/mythicmobs">Mythic Mobs</a></li>
+            <li><a href = "https://aternos.org/addons/a/hangar/PlaceholderAPI">PlaceholderAPI</a></li>
+            <li><a href = "https://aternos.org/addons/a/modrinthbukkit/ecVvYtj3">PowerRanks</a></li>
+            <li><a href = "https://aternos.org/addons/a/spigot/23243">SimpleScore</a></li>
+            <li><a href = "https://aternos.org/addons/a/bukkit/vault">Vault</a></li>
+            
+            <li><a href = "https://aternos.org/addons/a/bukkit/worldedit">World Edit</a></li>
+            <li><a href = "https://aternos.org/addons/a/bukkit/worldguard">World Gaurd</a></li>
+            
+            <li><a href = "https://aternos.org/addons/a/spigot/80940">Znpcs</a></li>
+            
+            
+    </ol>
+
+    <h2>Step 2: Edit the Plugins</h2>
+    <p>Click the Server tab and then start the server.</p>
+    <p>Check if your plugins are installed by typing <code>/plugins</code> in the console.</p>
+    <p>Now turn off the server and go to the files tab and click plugins! Now scroll through and edit the plugins. on some of the plugins like EssentialsX I recommend <a href = "https://www.youtube.com/channel/UCjUrZyueysuEQ1a5qntzI9Q">Kassi sora</a> for them. And for geyser if you chose to use it for crossplay use this <a href = "https://www.youtube.com/watch?v=XnmlAYMHQMM">video by badger10go</a>  also for power ranks use this <a href = "https://www.youtube.com/watch?v=nxi6mO3eo6s">video by KilanFluffySheep</a> (also for power ranks you dont have to go in game to do it just do it in console) And after you finish all of that go to the next step.</p>
+    
+    <h2>Step 3: Start the server</h2>
+    <p>In the server tab, click the start button to start the server of course. Now wait until it starts and then join...<br> If you are on Java use the ip but if you are on Bedrock use the port and ip</p>
+    
+    <h2>Step 4: Configure Server Properties</h2>
+    <p>Open the server.properties file in the files tab and then edit it all to your liking.</p>
+    <p>Such as server name, difficulty, and more.</p>
+
+    <h2>Step 5: Geyser</h2>
+    <p>If you want bedrock or mcpe players to join your server, you'll need to set up geyser. Refer to the video listed above for instructions.</p>
+
+<h2>Step 6: Play it!</h2>
+    <p>That's it! You now have your own Minecraft server up and running. Enjoy!</p>
+    <br><br><br><br><br><br><br>
+    
+    
+    <h1>Creating a Minecraft server using Minecraft server software</h1>
+    <p>Welcome to our guide on creating your own Minecraft server! Follow these steps:</p>
+
+    <h2>Step 1: Download the Minecraft Server Software</h2>
+    <p>Visit the official Minecraft website and download the <code>minecraft_server.1.XX.X.jar</code> file (where the X's represent the current version number).</p>
+    <p>Create a folder on your desktop to keep all your server files. You can name it "Minecraft Server."</p>
+    <p>Drag the downloaded <code>.jar</code> file into the newly created folder.</p>
+
+    <h2>Step 2: Run the Server</h2>
+    <p>Open the command prompt (you can search for it in the Start menu).</p>
+    <p>Check if Java is installed by typing <code>java -version</code>.</p>
+    <p>Change the directory to where you have the Minecraft Server folder and the <code>.jar</code> file. You can do this by typing:</p>
+    <pre><code>cd C:\Users\Admin\Desktop\Minecraft Server</code></pre>
+    <p>Replace the path with the actual location of your folder.</p>
+
+    <h2>Step 3: Start the Server</h2>
+    <p>In the command prompt, type the following (replace <code>"name of your jar"</code> with the actual name of your <code>.jar</code> file):</p>
+    <pre><code>java -jar "name of your jar".jar</code></pre>
+    <p>You might see a "failed to load properties" message; don't worry, this is normal.</p>
+
+    <h2>Step 4: Configure Server Properties</h2>
+    <p>Open the <code>server.properties</code> file in a text editor (located in your Minecraft Server folder).</p>
+    <p>Customize settings such as server name, difficulty, and more.</p>
+
+    <h2>Step 5: Port Forwarding</h2>
+    <p>If you want others to join your server, you'll need to set up port forwarding on your router. Refer to your router's documentation for instructions.</p>
+
+    <p>That's it! You now have your own Minecraft server up and running. Enjoy!</p>
+    <footer>
+    <ul>
+        <p><a href="https://www.guilded.gg/i/EzDbzymk">Contact us @Owner</a></p>
+    </ul>
+</footer>
+
+</body>
+</html>
